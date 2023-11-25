@@ -26,6 +26,10 @@ module.exports = {
     "react/jsx-uses-react": "off",
     "import/no-extraneous-dependencies": "off",
     'import/prefer-default-export': 'off',
+    'no-param-reassign': 'off',
+    'react/jsx-one-expression-per-line': 'off',
+    'react/jsx-props-no-spreading': 'off',
+    'max-len': ['error', {'code':120}]
   },
   "settings": {
     "import/resolver": {
